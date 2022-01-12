@@ -12,7 +12,7 @@ module "ec2_instance" {
   subnet_id              = "subnet-eddcdzz4"
 
   tags = {
-    Terraform   = "false"
+    Terraform   = "true"
     Environment = "dev"
   }
 }
